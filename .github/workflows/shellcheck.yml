@@ -13,4 +13,4 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y shellcheck
       - name: Run shellcheck
         run: |
-          shellcheck $(git ls-files '*.sh')
+          shellcheck -x $(git ls-files '*.sh')

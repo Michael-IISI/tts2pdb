@@ -5,4 +5,4 @@ export ORAENV_ASK=NO
 . oraenv
 export ORAENV_ASK=YES
 
-dbshut $ORACLE_HOME
+dbshut "$ORACLE_HOME"

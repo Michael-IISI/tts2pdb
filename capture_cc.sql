@@ -1,5 +1,5 @@
 -- -----------------------------------------------------------------------------------
--- File Name    : https://MikeDietrichDE.com/wp-content/scripts/12c/check_patches.sql
+-- File Name    : capture_cc.sql (from Mike Dietrich's scripts)
 -- Author       : Mike Dietrich
 -- Description  : Capture SQL Statements from Cursor Cache into a SQL Tuning Set
 -- Requirements : Access to the DBA role.
